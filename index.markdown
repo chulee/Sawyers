@@ -8,3 +8,4 @@ images:
 - "/uploads/hp_module_4.jpg"
 ---
 
+lorem
