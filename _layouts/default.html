@@ -6,6 +6,11 @@
 		<div id="site-content">
 			{% include header.html %}
 			<div id="main-content">
+				<div id="hp-slideshow">
+					{% for image in page.images %}
+						{{ forloop.index }}-{{ image }}
+					{% endfor %}
+				</div>
 				{{ content }}
 			</div>	
 			<!-- End main-content -->	
