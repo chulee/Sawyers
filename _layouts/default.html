@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="page{{ title | camelize }}">
+	<div id="wrap">
+		<div id="site-content">
+			{% include header.html %}
+			
+			<div id="main-content">
+				<div id="hp-slideshow">
+					{% for image in page.images %}+
+						{{ forloop.index }}{{ image }}
+					{% endfor %}
+				</div>
+			</div>	
+			<!-- End main-content -->	
+		</div>
+		<!-- End site-content -->
+	</div>
+	<!-- End wrap -->
+</body>
+</html>	
+				
