@@ -1,0 +1,37 @@
+#social {
+	width:100%;
+	float:left;
+	position:relative;
+}
+#social ul {
+	text-align:center;	
+	margin: 0;
+}
+#social li {
+	margin: 0 2px;
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+}
+#social li a {
+	width: 43px;
+	height: 43px;
+	display: block;
+	background: url(/assets/icons.png) no-repeat;
+}
+#social li.link-instagram a {
+	background-position: -2px 0;
+}
+#social li.link-pinterest a {
+	background-position: -50px 0;
+}
+#social li.link-snapchat a {
+	background-position: -99px 0;
+}
+#social li.link-facebook a {
+	background-position: -147px 0;
+}
+#social li.link-twitter a {
+	background-position: -196px 0;
+}
