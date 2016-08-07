@@ -6,6 +6,7 @@ images:
 - "/uploads/hp_module_2.jpg"
 - "/uploads/hp_module_3.jpg"
 - "/uploads/hp_module_4.jpg"
+layout: default
 ---
 
 Lorem ipsum hahaha
